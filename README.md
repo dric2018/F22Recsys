@@ -39,7 +39,7 @@ In your virtual environment, run `jupyter lab` and enjoy your R Kernel installat
 
 <div>
     <center>
-    <img src="/blob/main/RKernel.jpg" height=300, width=300/>
+    <img src="RKernel.jpg" height=300, width=300/>
     </center>
 </div>
 
