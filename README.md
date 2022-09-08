@@ -4,7 +4,7 @@
 
 You can get R for windows from https://cran.r-project.org/bin/windows/base.
 
-## R Kernel
+## R Kernel: Method 1
 
 1. Install miniconda from https://docs.conda.io/en/latest/miniconda.html.
     - Select the appropriate version 
@@ -37,9 +37,23 @@ You can get R for windows from https://cran.r-project.org/bin/windows/base.
 5. You are done !
 In your virtual environment, run `jupyter lab` and enjoy your R Kernel installation.
 
+<div>
+    <center>
+    <img src="./Rkernel.jpg" height=300, width=300/>
+    </center>
+</div>
 
 If you cannot open R notebooks, then stop the current jupyter server (Ctrl+C) and install R Kernel from anaconda prompt like this:
 
 ```sh
 > conda install -c r r-irkernel -y
+```
+
+## R Kernel: Method 2
+
+I have attached the config file of my own virtual environment that you can download. Everything can be installed and replicated without any issue just like this:
+
+```sh
+> conda env create -f <path_to_recsys_env.yml>
+# e.g. conda env create -f ../../recsys_env.yml
 ```
